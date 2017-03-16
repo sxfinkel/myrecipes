@@ -23,7 +23,8 @@ background: linear-gradient(to left, #DCE35B , #45B649); /* W3C, IE 10+/ Edge, F
 
 
 .center {
-    text-align: center;
+    text-align: center
+   // font-family: 'Dosis', sans-serif;
 }
 .jumbotron{
   background-image: asset-url('cover_image.png');
@@ -43,7 +44,15 @@ background: linear-gradient(to left, #DCE35B , #45B649); /* W3C, IE 10+/ Edge, F
   color: #b0d656; 
   text-decoration: none;
 }
-.jumbotron h1, h2 {
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.jumbotron h2 {
   color: #fff;
   text-align: center;
   margin-bottom: 30px;
@@ -59,32 +68,36 @@ background: linear-gradient(to left, #DCE35B , #45B649); /* W3C, IE 10+/ Edge, F
   color: #fff;
   text-decoration: none;
 }
+body {
+
+height: 100%;
+}
+
 .f-footer{
   color:#45B649;
   text-align: center;
 }
 .footer {
-    text-align: center;
-    opacity: .8;
-    padding: 60px;
+    margin-top: 50px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
     background: #DCE35B; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #DCE35B , #45B649); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #DCE35B , #45B649); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-}
+    padding-left: 10px;
+    padding-right: 10px;
+} 
 
 .footer a {
     color: #45B649;
     font-size: 20px;
     padding: 10px;
-    border-right: 1px solid #70726F;
+    
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
+    
 }
 
-.footer a:first-child {
-    border-left: 1px solid #70726F;
-}
 
 .footer a:hover {
     color: white;
@@ -97,4 +110,5 @@ background: linear-gradient(to left, #DCE35B , #45B649); /* W3C, IE 10+/ Edge, F
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #555;
     background-color: #b0d656;
+    
 }
