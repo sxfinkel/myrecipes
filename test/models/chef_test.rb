@@ -57,10 +57,8 @@ class ChefTest < ActiveSupport::TestCase
       
     test  "email should be lower case before hitting db" do
       mixed_email = "JohN@Example.com"
-      @chef.emali = mixed_email
+      @chef.email = mixed_email
       @chef.save
       assert_equal mixed_email.downcase, @chef.reload.email
-      
-    end
-      
+   end
 end
