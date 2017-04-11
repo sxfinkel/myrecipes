@@ -73,29 +73,9 @@ body {
 height: 100%;
 }
 
-.f-footer{
-  color:#45B649;
-  text-align: center;
-}
 .footer {
-    margin-top: 50px;
-    padding-top: 5px;
-    border-top: 1px solid #eaeaea;
-    background: #DCE35B; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #DCE35B , #45B649); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #DCE35B , #45B649); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-left: 10px;
-    padding-right: 10px;
-} 
-
-.footer a {
-    color: #45B649;
-    font-size: 20px;
-    padding: 10px;
-    
-    -webkit-transition: all .5s ease;
-    transition: all .5s ease;
-    
+  margin-top: 25px;
+  border-top: 1px solid #eaeaea;
 }
 
 
